@@ -1,0 +1,363 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* LANDDING IMAGE & OVERSKRIFT */
+
+.landing {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/forside.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    display: table;
+}
+
+.landing h1 {
+    font-family: 'Arvo', serif;
+    font-size: 5.5em;
+    font-weight: bold;
+    color: white;
+    line-height: -3%;
+    margin-top: 350px;
+    letter-spacing: 1.5px;
+    padding: 40px;
+}
+
+.landing h2 {
+  font-family: 'Arvo', serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #f18700;
+  letter-spacing: 1.5px;
+  margin-top: -130px;
+  margin-left: 5px;
+  padding: 40px;
+}
+
+/* NAVBAR, LOGO & SoMe */
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.navbar ul {
+    margin-right: 10em;
+    margin-top: 40px;
+      padding: 0px;
+}
+
+.navbar li {
+      display: inline-block;
+}
+
+.navbar a {
+  font-family: 'Arvo', serif;
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 600px;
+  padding: 0px;
+  margin: 30px;
+}
+
+#logo {
+  width: 80px;
+  height: auto;
+  margin: 0;
+  float: left;
+  margin-left: 20px;
+  margin-top: -40px;
+}
+
+#some-facebook img {
+  width: 25px;
+  height: auto;
+  margin-top: -10%;
+}
+
+#some-instagram img {
+  width: 25px;
+  height: auto;
+  margin-top: -10%;
+}
+
+  /* OM MUNDHÆLD */
+
+  #om p {
+    font-family: 'Arvo', serif;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    padding: 30px 110px;
+    margin-top: 50px;
+  }
+
+  .container {
+    display: flex;
+     flex-wrap: wrap;
+     padding: 5px;
+     justify-content: flex-end;
+     margin-right: 40px;
+}
+
+.item {
+     margin: 70px;
+}
+
+.container-text {
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   margin-top: -100px;
+   margin-right: -10px;
+}
+
+.container-text h2 {
+  font-family:  'Arvo', serif;
+  font-size: 14px;
+  text-align: center;
+  margin: 70px;
+}
+
+.container-text-info {
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: -80px;
+   margin-right: -10px;
+   text-align: justify;
+}
+
+.container-text-info p {
+  font-family: 'Montserrat', sans-serif;  font-size: 12px;
+  color: #6e6e6e;
+  text-align: center;
+  margin: 20px;
+  margin-left: 60px;
+
+}
+
+.ommundhaeld img {
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: -450px;
+}
+
+.ommundhaeld h1 {
+  font-family: 'Arvo', serif;
+  font-size: 40px;
+  margin-left: 700px;
+  margin-top: -350px;
+}
+
+.ommundhaeld p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #6e6e6e;
+  font-weight: lighter;
+  margin-left: 700px;
+  margin-top: -10px;
+  line-height: 1.5;
+}
+
+/* BILLEDEKOLLAGE */
+
+#kollage1 {
+  margin-top: 200px;
+}
+
+#worryless {
+  margin: 16px 16px 0;
+  height: 320px;
+  background-color: #f2f2f2;
+  width: 33.3%;
+  margin-left: 480px;
+  margin-top: -324px;
+}
+
+#worryless p {
+  font-family: 'Arvo', serif;
+  font-size: 40px;
+  text-align: center;
+  color: #f18700;
+  padding: 0;
+  margin: 0;
+}
+
+#kollage2 {
+  margin-top: -320px;
+  margin-left: 960px;
+}
+
+#kollage3 {
+  margin-top: -4px;
+}
+
+#kollage4 {
+  margin-top: -323px;
+  margin-left: 480px;
+}
+
+#brewtiful {
+  margin: 16px 16px 0;
+  height: 320px;
+  background-color: black;
+  width: 33.3%;
+  margin-left: 960px;
+  margin-top: -324px;
+}
+
+#brewtiful p {
+  font-family: 'Arvo', serif;
+  font-size: 40px;
+  text-align: center;
+  color: #f18700;
+  padding: 0;
+  margin: 0;
+}
+
+/* FASTE SORTIMENT */
+
+#faste-sortiment h1 {
+  font-family: 'Arvo', serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#om-sortiment {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.ad-libitum {
+  max-width: 350px;
+  height: 250px;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin-left: 66%;
+  margin-top: -100px;
+}
+
+.ad-libitum img {
+  max-width: 100px;
+  vertical-align: middle;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.ad-libitum p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.orange {
+  color: #f18700;
+  font-weight: 700;
+}
+
+.golden-ale, .lager, .pilsner {
+  max-width: 300px;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.golden-ale h1, .IPA h1, .stout h1,
+.lager h1, .british-ipa h1, .neipa h1,
+.pilsner h1, .pale-ale h1, .rom-kaffe-stout h1{
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.golden-ale img, .IPA img, .stout img,
+.lager img, .british-ipa img, .neipa img,
+.pilsner img, .pale-ale img, .rom-kaffe-stout img {
+  max-width: 80px;
+  height: auto;
+}
+
+.golden-ale p, .IPA p, .stout p,
+.lager p, .british-ipa p, .neipa p,
+.pilsner p, .pale-ale p, .rom-kaffe-stout p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+.golden-ale .fed {
+  font-weight: bold;
+}
+
+.IPA, .british-ipa, .pale-ale{
+  max-width: 300px;
+  text-align: center;
+  margin-left: 570px;
+  margin-top: -275px;
+}
+
+.stout, .neipa {
+  max-width: 300px;
+  text-align: center;
+  margin-left: 1050px;
+  margin-top: -265px;
+}
+
+.rom-kaffe-stout {
+  max-width: 300px;
+  text-align: center;
+  margin-left: 1050px;
+  margin-top: -250px;
+}
+
+/* ANMELDELSER */
+
+#anmeldelser img {
+  width: 100vw;
+  height: auto;
+  margin-top: 100px;
+}
+
+.kvinde1 img {
+  max-width: 150px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.kvinde1 {
+  text-align: center;
+  margin-top: -600px;
+}
+
+.kvinde1 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
+  margin-top: 50px;
+}
+
+.kvinde1 h2{
+  font-family: 'Arvo', serif;
+  font-size: 40px;
+  color: #f18700;
+}
