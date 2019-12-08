@@ -10,35 +10,31 @@
 <link href="https://fonts.googleapis.com/css?family=Arvo:700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Arvo:700|Montserrat:200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
 
 <header>
-
-
-  <section class='nav'>
-    <img src="images/logo1.png" id="logo1" width="90" height="90">
-    <ul class="navbar">
-      <li><a href="#">Om Mundhæld</a></li>
-      <li><a href="#">Galleri</a></li>
-      <li><a href="#">Øl</a></li>
-      <li><a href="#">Book</a></li>
-   </ul>
-   <div id="facebook-navbar">
-     <a href="https://www.facebook.com/mundhaeld/">
-     <img src="images/facebook.png" alt="facebook icon" width="100%">
-     </a>
-   </div>
-
-    <div id="instagram-navbar">
-      <a href="https://www.instagram.com/mundhaeld/">
-     <img src="images/instagram.png" alt="instagram icon" width="100%">
-      </a>
+<div class="topnav" id="myTopnav">
+    <div class="top">
+  <a href="http://mundhaeld.com"><img src="images/logo1.png" alt="" id="logo"  width="90" height="90"></a></div>
+  <div id="bier" class="toppen">
+      <ul>
+        <li><a href="#om">Om Mundhaeld</a></li>
+        <li><a href="#galleri">Galleri</a></li>
+        <li><a href="#øl">Øl</a></li>
+       <li><a href="#book">Book</a></li>
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li></ul>
     </div>
-</section>
-
+    
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    </header>
 <main>
 
   <section class="landing">
@@ -73,7 +69,7 @@
 
   <section class="ommundhaeld">
     <img src="images/mads-billede.png" alt="Ejer Mads Buchwald" style="width:350px">
-    <h1><b>OM<br>MUNDHÆLD<b></h1>
+      <h1><b>OM<br>MUNDHÆLD</b>b></h1>
     <p>Hej og velkommen til specialølbar Mundhæld's hjemmeside.
         Jeg hedder Mads Buchwald og er ejer af Mundhæld, som jeg
         åbnede tilbage i juli 2019. Udover at jeg er ejer af ølbaren, så
@@ -308,6 +304,24 @@ en kraftig og krydret smag med en sød eftersmag.</p>
 
 
 </footer>
+
+<script>
+function myFunction() {
+ 
+  var li = document.getElementById("bier");
+  if (x.className === "bier") {
+    x.className += " responsive";
+  } else {
+    x.className = "bier";
+  }
+
+       /* //alert("er klickt mir an");
+    
+    // vise .toppen
+    bier.style.display = "block";  */
+    
+}
+</script>
 
 
 
