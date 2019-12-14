@@ -1,4 +1,4 @@
-www.DeineDomain.tld/robots.txt
+www.https://majamartin.github.io/MDU2/.txt
 
 User-agent: *
 Disallow:
