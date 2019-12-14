@@ -1,4 +1,0 @@
-www.DeineDomain.tld/robots.txt
-
-User-agent: *
-Disallow:
